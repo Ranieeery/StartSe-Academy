@@ -12,6 +12,7 @@ undefined
 'Itens'
 ```
 ---
+
 ```js
 > var lista = window.document.getElementsByClassName("consumo")
 undefined
@@ -23,6 +24,7 @@ HTMLCollection(3) [li.consumo, li.consumo, li.consumo]
 'Folha A4'
 ```
 ---
+
 ```js
 > var listaTag = window.document.getElementsByTagName("li")
 undefined
@@ -33,6 +35,7 @@ HTMLCollection(5) [li.consumo, li.consumo, li, li.consumo, li]
 > listaTag.item(0).innerHTML = 'Cola bastão'
 'Cola bastão'
 ```
+
 ---
 ```js
 > var clique = window.document.getElementById("textoPagina")
@@ -46,5 +49,27 @@ undefined
 })
 undefined
 ```
-![alert js](https://i.imgur.com/K4DUvrS.png)
+<div align='center'><img src='https://i.imgur.com/K4DUvrS.png'/><div align='left'>
 
+---
+```js
+> var titulo = window.document.getElementById("tituloPagina")
+undefined
+
+> titulo.addEventListener("click", function() {
+    titulo.innerText = 'Título clique'
+})
+undefined
+```
+
+```js
+window.document.addEventListener("keydown", (event) => {
+  if (event.keyCode === 13) {
+    titulo.innerText = 'Título enter';
+  }
+})
+```
+<div align='center'>
+<a href='https://www.toptal.com/developers/keycode'><img src='https://custom-icon-badges.demolab.com/badge/keycodes javascript-323330.svg?logo=GoogleDomains&logoColor=white&style=for-the-badge&labelColor=F7951E'/></a>
+<a href='https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/beforeinput_event'><img src='https://custom-icon-badges.demolab.com/badge/mozilla%20reference-323330.svg?logo=mozilla&logoColor=white&style=for-the-badge&labelColor=9933CC'/></a>
+</div>
