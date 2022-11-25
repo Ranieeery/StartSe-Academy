@@ -45,6 +45,6 @@ undefined
     alert('Clicou no texto')
 })
 undefined
-
-![alert js](https://i.imgur.com/K4DUvrS.png)
 ```
+![alert js](https://i.imgur.com/K4DUvrS.png)
+
