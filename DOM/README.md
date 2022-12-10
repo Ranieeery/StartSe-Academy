@@ -63,11 +63,18 @@ undefined
 ```
 
 ```js
+//Old
 window.document.addEventListener("keydown", (event) => {
   if (event.keyCode === 13) {
     titulo.innerText = 'Título enter';
   }
 })
+//New !!!
+window.document.addEventListener("keydown", (event) => {
+  if (event.key === 'Enter') {
+    titulo.innerText = 'Título enter';
+  }
+});
 ```
 <div align='center'>
 <a href='https://www.toptal.com/developers/keycode'><img src='https://custom-icon-badges.demolab.com/badge/keycodes javascript-323330.svg?logo=GoogleDomains&logoColor=white&style=for-the-badge&labelColor=F7951E'/></a>
