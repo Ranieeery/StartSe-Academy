@@ -79,4 +79,25 @@ window.document.addEventListener("keydown", (event) => {
 <div align='center'>
 <a href='https://www.toptal.com/developers/keycode'><img src='https://custom-icon-badges.demolab.com/badge/keycodes javascript-323330.svg?logo=GoogleDomains&logoColor=white&style=for-the-badge&labelColor=F7951E'/></a>
 <a href='https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/beforeinput_event'><img src='https://custom-icon-badges.demolab.com/badge/mozilla%20reference-323330.svg?logo=mozilla&logoColor=white&style=for-the-badge&labelColor=9933CC'/></a>
-</div>
+</div><br>
+
+```js
+> var ulDom = window.document.getElementById("listaItens")
+undefined
+> ulDom
+<ul id="listaItens">
+
+> ulDom.firstElementChild
+<li class="consumo">
+
+> ulDom.lastElementChild
+<li>
+
+> ulDom.appendChild
+function appendChild()
+
+> ulDom.parentElement
+<div>
+```
+
+
