@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Título da página</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./favicon_io/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Site test">
+        <meta name="keywords" content="HTML, tags, script, style">
+        <meta name="author" content="Raniery M.">
+        <meta name="robots" content="index, follow, noarchive">
+        <meta name="" content="">
+        <style>
+            body {background-color: gray;}
+            h1 {color: yellowgreen;}
+            h2 {font-style: oblique;}
+            p {background-color: purple;}
+            #btnAlterar {
+                border: blue solid;
+                border-radius: 5px 10px 5px 10px;
+            }
+        </style>
+
+        <script>
+            window.onload = function(){
+                document.getElementById("btnAlterar").addEventListener("click", function() {
+                    var meuH1 = document.getElementsByTagName("h1");
+                    meuH1[0].innerHTML = "Meu novo título principal!!!!"
+                })
+            }
+        </script>
+
+        <base href="https://www.youtube.com/">
+    </head>
+    <body>
+        <h1>Título página</h1>
+        <h2>Subtítulo</h2>
+        <p>Parágrafo</p>
+        <button id="btnAlterar">Alterar</button>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="shorts">Shorts</a></li>
+            <li><a href="feed/subscriptions">Inscrições</a></li>
+        </ul>
+
+    </body>
+</html>

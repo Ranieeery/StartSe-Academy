@@ -2,13 +2,11 @@
 Representam o conteúdo da página. Possuem a mesma função de uma div porém facilita a interpretação.
 
 ```html
-<header></header>
-<section></section>
-<nav></nav>
-<main></main>
-<footer></footer>
-<summary></summary>
+<address></address>
 <article></article>
+<dfn></dfn>
+<dialog open></dialog>
+<section></section>
 etc...
 ```
 
