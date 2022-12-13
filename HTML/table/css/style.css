@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 9pt;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5PX 0;
+}
+
+thead {
+    color: white;
+    font-size: 16px;
+    background-color: gray;
+}
+
+tr,
+td,
+th {
+    border: 2px solid black;
+    transition: 0.75s all;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+tbody tr:hover {
+    background-color: red;
+}
+
+tbody {
+    text-align: left;
+}
+
+tfoot {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    background-color: gray;
+}
