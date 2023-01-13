@@ -1,0 +1,48 @@
+body {
+    background-color: aquamarine;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 150px;
+    background-color: green;
+    color: white;
+}
+
+.index2 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 35px;
+    background-color: white;
+    color: purple;
+}
+
+.p--color {
+    color: blue;
+    font-size: 12px;
+}
+
+div p::first-letter {
+    font-size: 60px;
+    color: red;
+}
+
+div p::first-line {
+
+    color: blue;
+}
+
+li {
+    color: green;
+}
+
+::marker {
+    color: red;
+}
+
+::selection {
+    background-color: #000000;
+    color: #FFFFFF;
+}

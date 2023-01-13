@@ -1,0 +1,8 @@
+a {
+    text-decoration: none;
+    border: 5px solid purple;
+}
+
+a:hover {
+    border: 6px dashed red;
+}
